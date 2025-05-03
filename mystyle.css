@@ -1,6 +1,8 @@
 /*global*/
+
+
 html{
-    font-size: 62.5%; /*ret html*/
+    font-size: 62.5%; /*reset html*/
     /* 1rem =10px*/
 }
 *{
@@ -37,6 +39,7 @@ img{
 }
 
 /*utilities*/ 
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -50,6 +53,8 @@ img{
 }
 
 /*header*/
+
+
 .site-header{
     background-image: url(img/header.jpg);
     height: 30vh;
@@ -59,6 +64,8 @@ img{
 }
 
 /*menu*/
+
+
 .menu a{
     color: white;
     margin-right: 2rem;/*20px*/
@@ -66,12 +73,15 @@ img{
 
 .menu-bar{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     height: 10vh;
+    margin:2rem;
 }
 
 /*main*/
+
+
 .about-container{
     display: flex;
     justify-content: space-around;
@@ -81,21 +91,46 @@ img{
 }
 
 .houses-item{
-    background-color: lightgray;
+    background-color: white;
+    margin-right: 1rem;
 }
 
 .houses-item-text{
     padding: 1rem;
+    border-color: red;
 }
 .cost{
     color: green;
 }
 
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-qty{
+    display: flex;
+    padding: 0 2rem 1rem 0;
+    
+}
+.feature-qtytxt{
+    display: flex;
+    padding: 0 2rem 1rem 0;
+    
+}
+
+
 /*footer*/
+
+
 .site-footer{ 
-    background-image: url(img/header.jpg);
+    background-image: url(img/encuentra.jpg);
     height: 30vh;
-    background-position: top center;
+    display: flex;
+    background-position: center;
     background-size: cover;
+    align-items: center;
     color: white;
+    justify-content: center;
+    margin-top: 2vh;
 }
