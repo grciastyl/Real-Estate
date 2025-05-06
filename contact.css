@@ -1,0 +1,116 @@
+/*global*/
+a{
+    color: black;
+}
+
+
+/* header */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+    background-color: orange;
+    height: 200px;
+    padding-left: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.menu a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+/* Main */
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*form*/
+form{
+    background-color: #f3f1f1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+fieldset{
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.date-hour{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.date-hour input{
+    width: 35%
+}
+
+.input{
+    width: 65%;
+    margin-right: 100px;
+}
+
+.option-class{
+    width: 65%;
+    margin-right: 100px;
+}
+
+textarea{
+    width: 65%;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.contact-radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    padding-right: 200px;
+    align-items: center;
+
+
+}
+/* Footer */
+
+.footer{
+    display: flex;
+    background-color: #f3f1f1;
+    height: 125px;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.footer img{
+    width: 30px;
+}
+
+.footer a{
+    font-weight: bold;
+}
