@@ -73,6 +73,7 @@ fieldset{
 .input{
     width: 65%;
     margin-right: 100px;
+    display;
 }
 
 .option-class{
@@ -93,9 +94,8 @@ textarea{
     margin: 15px;
     padding-right: 200px;
     align-items: center;
-
-
 }
+
 /* Footer */
 
 .footer{
