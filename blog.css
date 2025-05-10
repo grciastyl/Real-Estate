@@ -1,0 +1,207 @@
+/* global */
+
+html{
+    font-size: 62.5%; /*reset html*/
+    /* 1rem =10px*/
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 3.2rem;
+}
+h1 a{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.6rem;
+    margin: 2rem 0;
+}
+h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+h4{
+    font-size: 1.6rem;
+    margin: 1 rem 0;
+}
+
+@media(max-width:768px){
+    h2,h3,h4{
+        text-align: center;
+    }
+}
+img{
+    max-width: 100%;
+}
+
+/* header */
+
+.site-header{
+    background-image: url(img/header.jpg);
+    height: 30vh;
+    background-position: center right;
+    background-size: cover;
+    color: white;
+ 
+}
+
+.articles-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-items:center;
+}
+    .menu-bar a{
+        color: white;
+        text-decoration: none;
+    }
+
+/*menu*/
+
+.menu a{
+    color: white;
+    margin-right: 2rem;/*20px*/
+    height: 20vh;
+}
+
+.menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin:2rem;
+}
+
+@media(max-width:768px){
+    .menu-bar{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+}
+
+/* main */
+main{
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/* utilities */
+
+.btn-details{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* cards */
+
+.cards-container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    .cards-container1 .cards-container2{
+        flex-direction: column;
+    }
+}
+
+.card-1{
+    width: 45%;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px
+}
+.card-1 img{
+    margin-bottom: 10px;
+}
+
+.card-2{
+    width: 45%;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px
+}
+
+.card-2 img{
+    margin-bottom: 10px;
+}
+
+.card-3{
+    width: 45%;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px
+}
+
+.card-3 img{
+    margin-bottom: 10px;
+}
+
+.card-4{
+    width: 45%;    
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+    padding: 5px
+}
+
+.card-4 img{
+    margin-bottom: 10px;
+}
+
+
+
+/* footer */
+
+.site-footer{ 
+    background-image: url(img/encuentra.jpg);
+    height: 30vh;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: 2vh;
+}
